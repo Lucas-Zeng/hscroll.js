@@ -1,0 +1,31 @@
+{
+  "name": "hscroll.js",
+  "version": "1.0.0",
+  "description": "enable elments to scroll with animations horizontally",
+  "main": "hscroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lucas-Zeng/hscroll.js.git"
+  },
+  "keywords": [
+    "scroll",
+    "js",
+    "html",
+    "dom"
+  ],
+  "author": "Lucas-Zeng",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "bugs": {
+    "url": "https://github.com/Lucas-Zeng/hscroll.js/issues"
+  },
+  "homepage": "https://github.com/Lucas-Zeng/hscroll.js",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1"
+  }
+}

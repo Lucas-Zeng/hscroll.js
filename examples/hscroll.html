@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<style>
+
+		body {
+			margin: 0;
+			padding: 0;
+			height: 50px;
+			background: #eee
+		}
+		
+		.caption {
+			text-align: center;
+			line-height: 50px;
+		}
+
+		.wrap {
+			width: 100%;
+			background: #ccc;
+			border-top: 1px solid #000;
+			border-bottom: 1px solid #000;
+			overflow: hidden;
+		}
+		.scrollWrap {
+			display: -webkit-inline-flex;
+			display: inline-flex;
+			height: 50px;
+		}
+
+		.item {
+			width: 100px;
+			height: 50px;
+			line-height: 50px;
+			background: #fff;
+			text-align: center;
+			border-bottom: 3px solid red;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="caption">
+		Try draging below nav.
+	</div>
+	<div class="wrap">
+		<div class="scrollWrap">
+			<div class="item" style="border-bottom-color:red;">1</div>
+			<div class="item" style="border-bottom-color:green;">2</div>
+			<div class="item" style="border-bottom-color:yellow;">3</div>
+			<div class="item" style="border-bottom-color:blue;">4</div>
+		</div>
+	</div>	
+
+	<script src="../dist/hscroll.min.js"></script>
+	<script>
+		var hs = new HScroll( '.scrollWrap' );
+	</script>
+</body>
+</html>
