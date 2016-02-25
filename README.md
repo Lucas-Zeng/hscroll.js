@@ -36,15 +36,15 @@ README
 
 
 ##<a name="options"/>options详解
-####currentX [number] 初始化时给滚动条一个已滚动值。默认值为0。
-####isWindowScrollable [boolean] 拖动滚动条时，是否可以拖动页面。默认值为false。 
+#####currentX [number] 初始化时给滚动条一个已滚动值。默认值为0。
+#####isWindowScrollable [boolean] 拖动滚动条时，是否可以拖动页面。默认值为false。 
 
 ##<a name="methods"/>对象方法
-####disableHScroll() 解除拖动事件绑定。
+#####disableHScroll() 解除拖动事件绑定。
 	var hs = new HScroll( '.scrollWrap' );
 	hs.disableHScroll();
 
-####resetHScroll( options ) 重新初始化拖。options与初始化options参数一样。
+#####resetHScroll( options ) 重新初始化拖。options与初始化options参数一样。
 	var hs = new HScroll( '.scrollWrap' );
 	hs.disableHScroll();
 	hs.resetHScroll({
